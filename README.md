@@ -7,7 +7,7 @@ pip3 install poetry
 poetry lock
 (eventually: poetry env use [Python version])
 poetry install
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.3
+poetry add torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.3
 eval $(poetry env activate)
 ```
 
