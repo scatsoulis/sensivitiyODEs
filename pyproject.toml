@@ -25,6 +25,8 @@ pyfftw = "^0.15.0"
 torchvision = "^0.22.0"
 torchaudio = "^2.7.0"
 jax = "^0.6.1"
+diffrax = "^0.7.0"
+torchdiffeq = "^0.2.5"
 
 [tool.build-system]
 requires = ["poetry-core > 1.1.0"]
