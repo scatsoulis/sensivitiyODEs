@@ -39,7 +39,7 @@ line-length = 200
 [tool.ruff.lint]
 select=["E", "F", "W", "N","UP","S","PL","B","ANN","A","C4","RET","SIM","TCH"]
 extend-select = ["E501"]
-ignore = ["E402", "ANN101", "RET504", "PLR0913", "PLR0915", "N803", "N806"]
+ignore = ["E402", "RET504", "PLR0913", "PLR0915", "N803", "N806"]
 
 [tool.ruff.format]
 docstring-code-format = true
